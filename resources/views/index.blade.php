@@ -50,7 +50,7 @@
         </div>
         <div class="col-2">
 
-          <img src="{{ asset('storage/images/logo1.png') }}" />
+          <img src="{{ asset('images/logo1.png') }}" />
           <div>Виктория Неборак</div>
           <div>Стилист-имиджмейкер</div>
 
@@ -71,7 +71,7 @@
       <div class="text-center">
         <div style="font-size: 1.2rem;">
 
-          <img src="{{ asset('storage/images/logo1.png') }}" />
+          <img src="{{ asset('images/logo1.png') }}" />
           <div>Виктория Неборак</div>
           <div>Имидж-стилист</div>
 
@@ -97,7 +97,7 @@
         </div>
 
         <div class="self-info_avatar col-lg-3 col-sm-12">
-          <img class="self-info_photo__avatar" src="{{ asset('storage/images/ава 2.png') }}" alt="avatar">
+          <img class="self-info_photo__avatar" src="{{ asset('images/ава 2.png') }}" alt="avatar">
         </div>
 
         <div class="self-info_text col-lg-7 col-sm-12">
@@ -108,7 +108,7 @@
           <p>Суть моей работы заключается в том, чтобы ваш гардероб соответствовал вашей внешности, внутреннему
             состоянию и образу жизни.</p>
           <div class="autograf">
-            <img src="{{ asset('storage/images/подпись.png') }}" alt="autograf">
+            <img src="{{ asset('images/подпись.png') }}" alt="autograf">
           </div>
         </div>
 
@@ -264,10 +264,10 @@
         </div>
 
         <div>
-          <img src="{{ asset('storage/images/отзывы/questions_photo1.png') }}" width="500px" class="d-lg-none mx-auto d-block" alt="picture">
+          <img src="{{ asset('images/questions_photo1.png') }}" width="500px" class="d-lg-none mx-auto d-block" alt="picture">
         </div>
 
-        <img src="{{ asset('storage/images/отзывы/questions_photo1.png') }}" width="500px" class="fig d-none d-lg-block" alt="picture">
+        <img src="{{ asset('images/questions_photo1.png') }}" width="500px" class="fig d-none d-lg-block" alt="picture">
 
         <div class="q-name"> <h3>Разбор гардероба - значит выбросить все?</h3>
 
@@ -382,15 +382,15 @@
 
         <div class="icon-btn col-1">
           <a href=""></a>
-          <img class="icon" src="{{ asset('storage/images/отзывы/icon_instagram.png') }}" alt="icon">
+          <img class="icon" src="{{ asset('images/icon_instagram.png') }}" alt="icon">
         </div>
 
         <div class="icon-btn col-1">
 
-          <img class="icon" src="{{ asset('storage/images/отзывы/icon_fb.png') }}" alt="icon">
+          <img class="icon" src="{{ asset('images/icon_fb.png') }}" alt="icon">
         </div>
         <div class="icon-btn col-1">
-          <img class="icon" src="{{ asset('storage/images/отзывы/icon_youtoobe.png') }}" alt="icon">
+          <img class="icon" src="{{ asset('images/icon_youtoobe.png') }}" alt="icon">
         </div>
       </div>
 

@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
@@ -14,6 +15,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $source = __DIR__ . "/images";
+        $destination = storage_path("app/public");
+
+        $file = new Filesystem();
+        $file->copyDirectory($source, $destination);
+
         {
             $page1 = [
                 "морванюки1.jpg",
