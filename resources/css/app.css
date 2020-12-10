@@ -59,7 +59,6 @@ a.inf {
     display: block;
     background: url(../Images/bg.jpg) repeat;
     width: 100%;
-
 }
 
 .servises-title {
@@ -67,13 +66,11 @@ a.inf {
     margin-bottom: 2%;
     text-transform: uppercase;
     background: #f8eded;
-
 }
 
 .servises-btn {
     font-size: 2rem;
     color: black;
-
 }
 
 .servises-discription {
@@ -93,25 +90,22 @@ a.inf {
 
 .servises-box {
     background-color: #fae7d859;
-
-}
-
-.contacts {
-    border: 4px double black; /* Параметры границы */
-    margin: 0;
 }
 
 .rewievs-title {
     text-align: center;
     text-transform: uppercase;
     margin-top: 3%;
-
 }
 
 .contacts-title {
     text-align: center;
     text-transform: uppercase;
     margin-top: 3%;
+}
+
+.contacts-block{
+    margin: auto;
 }
 
 .questions {
@@ -132,13 +126,11 @@ a.inf {
 
 .questions-title {
     padding-bottom: 3%;
-
 }
 
 .q-name {
     font-size: 1.8rem;
     background: #f0aaaa;
-
 }
 
 .q-txt_answer {
@@ -154,10 +146,6 @@ a.inf {
 
 .consult {
     margin-top: 3%;
-}
-
-.consult-column {
-
 }
 
 .gallery-title {
