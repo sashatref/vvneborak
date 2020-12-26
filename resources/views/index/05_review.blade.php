@@ -1,8 +1,7 @@
 <div class="container-xl">
 
-    <section class="rewievs container">
-        <a name="rewiev"></a>
-        <div class="rewievs-title">
+    <section class="rewievs" id="rewiev">
+        <div class="heading">
             <h1>Отзывы</h1>
         </div>
 
@@ -23,8 +22,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="rewievs-more">
-            <span class="more"> <a class="see-more-rewievs">Смотреть все отзывы</a></span>
+        <div class="rewievs-more text-center">
+            <a href="https://www.instagram.com/vv_neborak/" class="see-more-rewievs btn btn-secondary btn-lg">Все отзывы</a>
         </div>
 
     </section>

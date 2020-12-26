@@ -1,0 +1,70 @@
+
+
+.header {
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    height: 100%;
+    cursor: pointer;
+}
+.row {
+    height: 100%;
+}
+.my-btn {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.col-2 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: black;
+}
+
+a.inf {
+    color: #be1d8e;
+}
+
+.autograf {
+    margin: 0 auto;
+}
+
+.card-header
+{
+    background-color: #fae7d859;
+    opacity: 0,1;
+}
+
+.card-body {
+    font-size: 1.5rem;
+}
+
+.servises-box {
+    background-color: #fae7d859;
+}
+
+
+.contacts-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+li.secondary-color.active {
+    background-color: rgb(0, 0, 0);
+}
+
+li.secondary-color {
+    background-color: rgb(94, 91, 91);
+}
+
+li.default-color {
+    background-color: rgb(94, 91, 91);
+}
+
+.navbar
+{
+    background-color: #f8eded;
+}

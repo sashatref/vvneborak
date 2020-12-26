@@ -1,6 +1,6 @@
 <section class="gallery">
     <a name="photos"></a>
-    <div class="gallery-title">
+    <div class="heading">
       <h1>Стилизация фотосессий</h1>
     </div>
 
@@ -29,7 +29,7 @@
                   @foreach($galleryPage->childrenPhotos as $galleryPhoto)
                       <figure class="col-md-4 d-md-inline-block">
                           <a href="{{ $galleryPhoto->image_url }}" data-toggle="lightbox" data-gallery="gallery">
-                              <img src="{{ $galleryPhoto->image_url }}" class="img-fluid">
+                              <img src="{{ $galleryPhoto->image_url_preview }}" class="img-fluid">
                           </a>
                       </figure>
                   @endforeach

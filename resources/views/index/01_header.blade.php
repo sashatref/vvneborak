@@ -1,5 +1,41 @@
-<div class="header">
-    <div class="container-fluid d-none d-xl-block">
+<div class="header container-xl">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+
+        <div class="navbar-brand">
+            <img src="{{ asset('images/logo1.png') }}" />
+            <div>Виктория Неборак</div>
+            <div>Стилист-имиджмейкер</div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">Обо мне</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servise">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rewiev">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#question">Вопросы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Контакты</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Блог</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <div class="container-fluid d-none d-xl-block">
       <div class="row text-center">
         <div class="col-5">
           <div class="container-fluid">
@@ -27,9 +63,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="container-fluid d-xl-none">
+    <!-- <div class="container-fluid d-xl-none">
       <div class="text-center">
         <div style="font-size: 1.2rem;">
 
@@ -45,5 +81,5 @@
         <div><a href="#contact">Контакты</a></div>
         <div><a href="#">Блог</a></div>
       </div>
-    </div>
+    </div> -->
   </div>

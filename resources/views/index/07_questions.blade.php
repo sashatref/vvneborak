@@ -1,21 +1,19 @@
 <div class="container-xl">
 
-<section class="questions">
-    <a name="question"></a>
-
+    <section class="questions">
       <div class="questions-block">
-        <div class="questions-title">
-          <h1>Часто задаваемые вопросы</h1>
+        <div class="heading" id="question">
+          <h1>Классические вопросы</h1>
         </div>
 
         <div>
-          <img src="{{ asset('images/questions_photo1.png') }}" width="100%" class="d-lg-none mx-auto d-block" alt="picture">
+          <img src="{{ asset('images/questions_photo1.jpg') }}" width="100%" class="d-lg-none mx-auto d-block" alt="picture">
         </div>
 
-        <img src="{{ asset('images/questions_photo1.png') }}" width="500px" max-width="500px" class="fig d-none d-lg-block" alt="picture">
+        <img src="{{ asset('images/questions_photo1.jpg') }}" width="500px" max-width="500px" class="fig d-none d-lg-block" alt="picture">
 
-        <div class="q-name"> <h3>Разбор гардероба - значит выбросить все?</h3>
-
+        <div class="q-name">
+            <h3>Разбор гардероба - значит выбросить все?</h3>
         </div>
         <div class="q-txt_answer">
           <p>Единственный человек, который принимает решение о том, какие вещи нужно убрать со своего гардероба - вы.</p>
@@ -65,7 +63,7 @@
           <p>Можно! Вы делаете фотографии своих вещей на хорошем освещении. Можно несколько вещей на одно фото, а затем
             получаете презентацию с комплектами для вас. Мы с вами обсуждаем список покупок - и я скидываю вам вторую
             часть презентации - шопинг-лист с визуализацией</p>
-          <p>По сути, online-разбор гардероба не на много отличается от ofline</p>
+          <p>По сути, online-разбор гардероба не на много отличается от offline</p>
         </div>
 
 

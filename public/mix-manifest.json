@@ -1,4 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/bootstrap.bundle.min.js": "/js/bootstrap.bundle.min.js",
+    "/js/jquery-3.5.1.slim.min.js": "/js/jquery-3.5.1.slim.min.js",
+    "/js/ekko-lightbox.min.js": "/js/ekko-lightbox.min.js",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/ekko-lightbox.css": "/css/ekko-lightbox.css"
 }

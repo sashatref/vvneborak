@@ -23,12 +23,12 @@ class DatabaseSeeder extends Seeder
 
         {
             $page1 = [
-                "морванюки1.jpg",
-                "морванюки2.jpg",
-                "морванюки3.jpg",
-                "морванюки4.jpg",
-                "морванюки5.jpg",
-                "морванюки6.jpg",
+                "morv1.jpg",
+                "morv2.jpg",
+                "morv3.jpg",
+                "morv4.jpg",
+                "morv5.jpg",
+                "morv6.jpg",
             ];
 
             $page2 = [
@@ -63,7 +63,8 @@ class DatabaseSeeder extends Seeder
                 foreach ($allPages[$i] as $photo) {
                     DB::table("gallery_photo")->insert([
                         "gallery_page_id" => $i + 1,
-                        "image_url" => "storage/upload/" . $photo
+                        "image_url" => "storage/upload/gallery/" . $photo,
+                        "image_url_preview" => "storage/upload/gallery/preview_" . $photo
                     ]);
                 }
             }
@@ -78,7 +79,7 @@ class DatabaseSeeder extends Seeder
              - с изящным платьем, но не знали, как это сделать стильно, обратите внимание на эту консультацию",
                 "cost" => 1000,
                 "duration" => "1,5 часа",
-                "image_url" => "storage/upload/styles.jpg"
+                "image_url" => "storage/upload/consultation/styles.jpg"
             ]);
 
             DB::table("consultation")->insert([
@@ -89,7 +90,7 @@ class DatabaseSeeder extends Seeder
              любым другим цветом, который существует в природе",
                 "cost" => 800,
                 "duration" => "1,5 часа",
-                "image_url" => "storage/upload/colortypes.jpg"
+                "image_url" => "storage/upload/consultation/colortypes.jpg"
             ]);
 
             DB::table("consultation")->insert([
@@ -100,7 +101,7 @@ class DatabaseSeeder extends Seeder
              И вообще я хочу носить юбки, но умею только джинсы\".",
                 "cost" => 1000,
                 "duration" => "1,5 часа",
-                "image_url" => "storage/upload/bodytype.jpg"
+                "image_url" => "storage/upload/consultation/bodytype.jpg"
             ]);
 
             DB::table("consultation")->insert([
@@ -111,7 +112,7 @@ class DatabaseSeeder extends Seeder
             что же вам идет. А женщина должна быть элегантной и вот это все, обращайтесь :)",
                 "cost" => 1500,
                 "duration" => "2 часа",
-                "image_url" => "storage/upload/larson.jpg"
+                "image_url" => "storage/upload/consultation/larson.jpg"
             ]);
 
             DB::table("consultation")->insert([
@@ -123,7 +124,7 @@ class DatabaseSeeder extends Seeder
             какая стрижка и цвет волос будет вам к лицу",
                 "cost" => 800,
                 "duration" => "1 час",
-                "image_url" => "storage/upload/hair.jpg"
+                "image_url" => "storage/upload/consultation/hair.jpg"
             ]);
 
             DB::table("consultation")->insert([
@@ -135,17 +136,17 @@ class DatabaseSeeder extends Seeder
             Это и многое другое по теме аксессуаров прояснится здесь",
                 "cost" => 800,
                 "duration" => "1,5 часа",
-                "image_url" => "storage/upload/accsesoires.jpg"
+                "image_url" => "storage/upload/consultation/accsesoires.jpg"
             ]);
         }
 
         {
             $reviewUrls = [
-                "storage/upload/s1.png",
-                "storage/upload/s3.png",
-                "storage/upload/s4.png",
-                "storage/upload/s5.png",
-                "storage/upload/s2.png"
+                "storage/upload/reviews/s1.jpg",
+                "storage/upload/reviews/s3.jpg",
+                "storage/upload/reviews/s4.jpg",
+                "storage/upload/reviews/s5.jpg",
+                "storage/upload/reviews/s2.jpg"
             ];
 
             foreach ($reviewUrls as $reviewUrl)
@@ -164,9 +165,9 @@ class DatabaseSeeder extends Seeder
                 "content" => "<p>Offline/online</p>
             <p>Составляем максимальное количество комплектов из ваших вещей.</p>
             <p>Составляем список покупок с визуализацией.</p>
-            <p>Стоимость разбора гардероба до 4-х часов - 1200 грн.</p>
+            <p>Стоимость разбора гардероба до 4-х часов - 1500 грн.</p>
             <p>Каждый последующий час - 250 грн.</p>
-            <p>Стоимость разбора гардероба online - 1200грн (до 50 вещей на фото).",
+            <p>Стоимость разбора гардероба online - 1500грн (до 50 вещей на фото).",
             ]);
 
             DB::table("service")->insert([
@@ -175,9 +176,9 @@ class DatabaseSeeder extends Seeder
                 "content" => "<p>Offline/online</p>
             <p>Составляем список необходимых покупок.</p>
             <p>Вещи, согласно списку, я ищу предварительно. Вам необходимо просто прийти на примерку</p>
-            <p>Стоимость совместного шопинга до 4-х часов - 1200 грн.</p>
+            <p>Стоимость совместного шопинга до 4-х часов - 1500 грн.</p>
             <p>Каждый последующий час - 250 грн.</p>
-            <p>Стоимость шопинга он-лайн - 1200 грн.</p>",
+            <p>Стоимость шопинга он-лайн - 1500 грн.</p>",
             ]);
 
             DB::table("service")->insert([
@@ -219,7 +220,7 @@ class DatabaseSeeder extends Seeder
             ]);
 
             DB::table("service")->insert([
-                "enabled" => true,
+                "enabled" => false,
                 "title" => "Прокат платьев",
                 "content" => "<p>Вечерние платья на прокат</p>
             <p><a class=\"inf\" href=\"#rental\">Смотреть все платья</a></p>",

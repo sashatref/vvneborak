@@ -1,0 +1,31 @@
+.services-bg
+{
+    display: block;
+    background: url(../Images/bg.jpg) repeat;
+    width: 100%;
+}
+
+.servises {
+
+}
+
+.servises-title {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background: #f8eded;
+}
+
+.servises-btn {
+    font-size: 2rem;
+    color: black;
+}
+
+.servises-discription {
+    font-size: 0.3 rem;
+}
+
+#servise
+{
+    padding-top: 30px;
+}

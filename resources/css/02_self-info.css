@@ -1,0 +1,20 @@
+.self-info {
+    margin-top: 10px;
+}
+
+.self-info_text {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+.self-info_photo__avatar
+{
+    max-width: 100%;
+    height: auto;
+}
+
+#about-me
+{
+    border-bottom: 1px black solid;
+    padding: 20px;
+}

@@ -1,8 +1,7 @@
 
 <div class="container-xl">
     <section class="consult">
-        <a name="lessons"></a>
-        <div class="consultatoins-title">
+        <div class="heading" id="lessons">
             <h1>Консультации</h1>
         </div>
 
@@ -10,7 +9,7 @@
             <div class="row">
 
                 @foreach ($consultArr as $consult)
-                    <div class="consult-1 col-xs-12 col-md-6">
+                    <div class="consult-1 col-xs-12 col-md-6 mb-2">
                         <div class="card">
                             <img src="{{ $consult->image_url }}" class="card-img-top" alt="...">
                             <div class="card-body">

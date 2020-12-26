@@ -17,6 +17,7 @@ class CreateGalleryTable extends Migration
             $table->id();
             $table->boolean("enabled")->default(true);
             $table->text('image_url')->default("");
+            $table->text('image_url_preview')->default("");
             $table->integer("gallery_page_id");
             $table->timestamps();
         });

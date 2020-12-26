@@ -1,0 +1,13 @@
+.rewievs-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+.rewievs
+{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

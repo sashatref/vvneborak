@@ -1,0 +1,27 @@
+.questions {
+    padding: 3%;
+}
+
+
+.questions-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.q-name {
+    font-size: 1.8rem;
+    background: #f0aaaa;
+    padding: 0px 4px 0px 4px;
+}
+
+.q-txt_answer {
+    font-size: 1.4rem;
+}
+
+.fig {
+    float: left; /* Обтекание картинки по левому краю */
+    padding-right: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+}
